@@ -11,7 +11,7 @@ namespace LeLab
         {
             InitializeComponent();
 
-            MainPage = new CountPage();
+            MainPage = new NavigationPage(new MenuPage());
         }
 
         protected override void OnStart()
